@@ -1,0 +1,19 @@
+1. 
+git init
+Initialized Git repository in C:/Users/Group019/Desktop/ExamGit/.git/
+
+git remote add origin https://github.com/ShrirangProgrammer/ExamGitRepo.git
+
+2. 
+a. - git status 
+    =>
+	Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   hello.sh
+
+
+b. - git diff --cached --name-only
+==>
+README.md
+hello.sh
